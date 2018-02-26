@@ -5,8 +5,7 @@ pipelineJob("Simple Pipeline") {
                 git {
                     remote {
                         name('master')
-                        url('git@bitbucket.org:german_labs/simple-pipeline.git')
-                        credentials('bitbucket')
+                        url('https://github.com/grivas/jenkins-sample-pipeline.git')
                     }
                     branch('master')
                 }
